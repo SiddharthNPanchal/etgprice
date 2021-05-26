@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Roboto:wght@100&display=swap");
+
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  background-color: #2b2b2b;
+  text-align: center;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.img {
+  display: flex;
+  width: 30%;
+  margin-top: 20px;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 50%;
+}
+
+.menu {
+  width: 30%;
+  margin-left: 35%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: #cdcdcd; */
+  justify-content: center;
+}
+
+.logo {
+  /* padding-top: 20px; */
+  padding: auto;
+  height: 60px;
+}
+
+.button1 {
+  height: 30px;
+  font-family: "Fira Sans", sans-serif;
+  padding: 0 20px 0 20px;
+
+  border-radius: 4px;
+  font-size: 10px;
+  color: white;
+  background-color: #762b90;
+  border: none;
+  cursor: pointer;
+}
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.bar {
+  color: gray;
+  padding-top: 15px;
+}
+
+.nav-menu {
+  background-color: #2b2b2b;
+  width: 350px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  font-family: "Fira Sans", sans-serif;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  right: 0;
+  font-family: "Fira Sans", sans-serif;
+  transition: 400ms;
+}
+
+.nav-text {
+  display: flex;
+  color: #cdcdcd;
+  justify-content: start;
+  padding: 8px 0px 8px 16px;
+  height: 25px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #cdcdcd;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.bar:hover {
+  color: rgb(46, 76, 167);
+  cursor: pointer;
+}
+.button1:hover {
+  background-color: #006cdb;
+  cursor: pointer;
+}
+
+span {
+  color: #cdcdcd;
+}
+
+.coin-menu {
+  background-color: #2b2b2b;
+  width: 350px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  transition: 850ms;
+}
+
+.coin-menu.active {
+  right: 0;
+  transition: 400ms;
+}
+
+.coin-menu-items {
+  width: 100%;
+}
+
+.itemTitle {
+  color: #cdcdcd;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.itemTitle:hover {
+  cursor: pointer;
+}
+
+.close {
+  margin-right: 300px;
+}
+
+.time {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 40%;
+  margin-left: 500px;
+}
